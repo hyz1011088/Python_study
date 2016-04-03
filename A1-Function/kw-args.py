@@ -13,7 +13,8 @@ data = {
 'F.Bart': 77
 }
 print_scores(**data)
-def print_info(name, *, gender, city='Beijing', age):
+
+def print_info(name, * , gender, city='Beijing', age):
 	print('Personal Info')
 	print('---------------')
 	print(' Name: %s' % name)
