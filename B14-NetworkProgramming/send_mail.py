@@ -5,6 +5,7 @@ from email import encoders
 from email.header import Header
 from email.mime.text import MIMEText
 from email.utils import parseaddr, formataddr
+from email.mime.multipart import MIMEMultipart
 import smtplib
 
 def _format_addr(s):
